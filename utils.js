@@ -26,7 +26,7 @@ require = utils // eslint-disable-line no-undef, no-native-reassign
 
 require('extend-shallow', 'extend')
 require('formidable')
-require('koa-body-parsers', 'bodyParsers')
+require('./koa-body-parsers', 'bodyParsers')
 
 /**
  * Restore `require`
